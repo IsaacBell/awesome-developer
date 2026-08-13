@@ -1,0 +1,29 @@
+- https://aws.amazon.com/s3/
+- R2
+- Cloudflare
+- Workers
+  - CF
+  - Vercel(?)
+  - AWS Lambda
+- Storage
+  - Neon
+  - (everything that integrates w/ vercel)
+  - CockroachDB
+  - https://cloud.google.com/storage
+- Python
+  - https://astral.sh
+  - Ruff https://astral.sh/ruff
+  - UV https://github.com/astral-sh/uv
+  - Ty https://github.com/astral-sh/ty
+  - Pydantic
+  - Pylance
+  - Gitea
+  - Frogejo
+  - Subversion
+  - Mercurial
+  - Notion
+  - Obsidian
+  - Infisical
+  - Proton Pass
+  - Bitwarden
+  -
