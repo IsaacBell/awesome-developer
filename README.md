@@ -4,26 +4,33 @@
 
 ## Contents
 
-- [Version Control & Code Hosting](#version-control--code-hosting)
-- [Languages](#languages)
-- [Web Frameworks & Full-Stack](#web-frameworks--full-stack)
-- [Frontend & UI](#frontend--ui)
-- [Backend & APIs](#backend--apis)
-- [Mobile & Cross-Platform](#mobile--cross-platform)
-- [Databases & Data](#databases--data)
-- [AI Coding & Agentic Tools](#ai-coding--agentic-tools)
-- [Game Development](#game-development)
-- [Embedded, IoT & Robotics](#embedded-iot--robotics)
-- [DevOps & Infrastructure](#devops--infrastructure)
-- [Hosting & Serverless](#hosting--serverless)
-- [Testing & QA](#testing--qa)
-- [Editors & IDEs](#editors--ides)
-- [Productivity & Project Management](#productivity--project-management)
-- [Communication](#communication)
-- [Utilities & Desktop Apps](#utilities--desktop-apps)
-- [Books](#books)
-- [Learning Resources](#learning-resources)
-- [Related Awesome Lists](#related-awesome-lists)
+- Languages & Frameworks
+  - [Version Control & Code Hosting](#version-control--code-hosting)
+  - [Languages](#languages)
+  - [Package Managers & Monorepo](#package-managers--monorepo)
+  - [Linting, Formatting & Dev Tooling](#linting-formatting--dev-tooling)
+  - [Web Frameworks & Full-Stack](#web-frameworks--full-stack)
+  - [Frontend & UI](#frontend--ui)
+  - [Backend & APIs](#backend--apis)
+  - [Mobile & Cross-Platform](#mobile--cross-platform)
+- Data & AI
+  - [Databases & Data](#databases--data)
+  - [AI Coding & Agentic Tools](#ai-coding--agentic-tools)
+  - [Game Development](#game-development)
+  - [Embedded, IoT & Robotics](#embedded-iot--robotics)
+- Infrastructure
+  - [DevOps & Infrastructure](#devops--infrastructure)
+  - [Hosting & Serverless](#hosting--serverless)
+  - [Testing & QA](#testing--qa)
+- Workflow
+  - [Editors & IDEs](#editors--ides)
+  - [Productivity & Project Management](#productivity--project-management)
+  - [Communication](#communication)
+  - [Utilities & Desktop Apps](#utilities--desktop-apps)
+- Learning
+  - [Books](#books)
+  - [Learning Resources](#learning-resources)
+  - [Related Awesome Lists](#related-awesome-lists)
 
 ## Version Control & Code Hosting
 
@@ -53,6 +60,26 @@
 - [C / C++](https://isocpp.org) - Low-level languages for systems, embedded, and game development.
 - [Bun](https://bun.sh) - Fast all-in-one JavaScript runtime, bundler, and package manager.
 - [Deno](https://deno.com) - Secure runtime for JavaScript and TypeScript built with Rust.
+
+## Package Managers & Monorepo
+
+- [npm](https://www.npmjs.com) - The default package manager for JavaScript and Node.js.
+- [Yarn](https://yarnpkg.com) - Fast, reliable, and secure dependency management for JavaScript.
+- [pnpm](https://pnpm.io) - Fast, disk-space-efficient package manager for JavaScript.
+- [uv](https://docs.astral.sh/uv) - Ultra-fast Python package and project manager built in Rust.
+- [Nx](https://nx.dev) - Smart monorepo build system with caching and CI orchestration.
+- [Turborepo](https://turborepo.com) - High-performance build system for JavaScript and TypeScript monorepos.
+
+## Linting, Formatting & Dev Tooling
+
+- [ESLint](https://eslint.org) - Pluggable linting utility for JavaScript and TypeScript.
+- [Prettier](https://prettier.io) - Opinionated code formatter with support for many languages.
+- [Biome](https://biomejs.dev) - Fast JavaScript and TypeScript toolchain combining linting and formatting.
+- [Ruff](https://docs.astral.sh/ruff) - Extremely fast Python linter and formatter written in Rust.
+- [Pyright](https://github.com/microsoft/pyright) - Fast type checker for Python from Microsoft.
+- [nodemon](https://nodemon.io) - Automatically restarts Node.js applications when files change.
+- [tsx](https://tsx.is) - TypeScript execution engine for Node.js powered by esbuild.
+- [air](https://github.com/air-verse/air) - Live-reload utility for Go development.
 
 ## Web Frameworks & Full-Stack
 
@@ -102,13 +129,24 @@
 - [Hono](https://hono.dev) - Ultra-fast, lightweight web framework for edge and serverless.
 - [NestJS](https://nestjs.com) - Progressive Node.js framework for building efficient server-side apps.
 - [Fastify](https://fastify.io) - Fast and low-overhead web framework for Node.js.
+- [Gin](https://gin-gonic.com) - High-performance HTTP web framework for Go.
+- [Echo](https://echo.labstack.com) - High-performance, minimalist web framework for Go.
+- [Fiber](https://gofiber.io) - Express-inspired web framework for Go built on Fasthttp.
+- [Chi](https://go-chi.io) - Lightweight, idiomatic router and middleware framework for Go.
+- [templ](https://templ.guide) - HTML templating language for Go with compile-time type safety.
 - [GraphQL](https://graphql.org) - Query language for APIs and a runtime for fulfilling queries.
 - [GraphQL Yoga](https://the-guild.dev/graphql/yoga-server) - Fully-featured GraphQL server.
+- [GraphQL Code Generator](https://the-guild.dev/graphql/codegen) - Generates typed code and hooks from GraphQL schemas.
 - [gRPC](https://grpc.io) - High-performance, open-source universal RPC framework.
 - [tRPC](https://trpc.io) - TypeScript-first framework for building end-to-end type-safe APIs.
+- [Zod](https://zod.dev) - TypeScript-first schema validation with static type inference.
+- [TypeBox](https://github.com/sinclairzx81/typebox) - Runtime type system and JSON Schema builder for TypeScript.
 - [Uvicorn](https://www.uvicorn.org) - Lightning-fast ASGI server for Python.
 - [Pydantic](https://docs.pydantic.dev) - Data validation and settings management in Python.
+- [Celery](https://docs.celeryq.dev) - Distributed task queue for Python applications.
+- [Temporal](https://temporal.io) - Durable execution platform for building reliable distributed workflows.
 - [Kafka](https://kafka.apache.org) - Distributed event streaming platform.
+- [Kafka UI](https://github.com/provectus/kafka-ui) - Open-source web UI for managing and inspecting Apache Kafka clusters.
 - [NATS](https://nats.io) - Open-source messaging system for cloud-native applications.
 - [Upstash QStash](https://upstash.com/docs/qstash/overall/getstarted) - Serverless message queue and scheduler for automating background work.
 - [Kratos](https://go-kratos.dev) - Go microservices framework with a service-to-service communication toolkit.
@@ -133,16 +171,28 @@
 - [PostgreSQL](https://www.postgresql.org) - Powerful, open-source object-relational database.
 - [Neon](https://neon.tech) - Serverless Postgres with branching and scale-to-zero.
 - [MySQL](https://www.mysql.com) - Widely-used open-source relational database.
+- [PlanetScale](https://planetscale.com) - Serverless MySQL-compatible database platform.
 - [SQLite](https://sqlite.org) - Self-contained, serverless, zero-configuration SQL database.
+- [better-sqlite3](https://github.com/WiseLibs/better-sqlite3) - Fast, synchronous SQLite driver for Node.js.
+- [libSQL](https://github.com/tursodatabase/libsql) - Open-source, SQLite-compatible database with extended capabilities.
+- [Turso](https://turso.tech) - Edge database platform built on libSQL for globally distributed apps.
 - [DuckDB](https://duckdb.org) - In-process analytical database for fast analytics.
+- [Apache Arrow](https://arrow.apache.org) - Cross-language columnar in-memory format for data interchange.
+- [Apache Parquet](https://parquet.apache.org) - Columnar storage file format for efficient analytics.
 - [MongoDB](https://www.mongodb.com) - General-purpose, document-based, distributed database.
 - [Redis](https://redis.io) - In-memory data structure store used as database, cache, and message broker.
+- [Valkey](https://valkey.io) - Open-source in-memory data store, community fork of Redis.
 - [Upstash](https://upstash.com) - Serverless Redis and Kafka with per-request pricing.
 - [Cassandra](https://cassandra.apache.org) - Wide-column store NoSQL database.
+- [ClickHouse](https://clickhouse.com) - Columnar database for real-time analytics at scale.
+- [TimescaleDB](https://www.timescale.com) - Time-series database built as a PostgreSQL extension.
 - [Apache Superset](https://superset.apache.org) - Open-source data exploration and visualization platform.
 - [Snowflake](https://www.snowflake.com) - Cloud data platform for analytics and warehousing.
 - [Elasticsearch](https://www.elastic.co/elasticsearch) - Distributed search and analytics engine.
 - [Meilisearch](https://www.meilisearch.com) - Lightning-fast search API.
+- [Qdrant](https://qdrant.tech) - Vector database for AI similarity search and semantic memory.
+- [Weaviate](https://weaviate.io) - Open-source vector database with built-in AI and ML modules.
+- [Pinecone](https://www.pinecone.io) - Managed vector database for production AI applications.
 - [Supabase](https://supabase.com) - Open-source Firebase alternative.
 - [PocketBase](https://pocketbase.io) - Open-source backend in a single file.
 - [NocoDB](https://nocodb.com) - Open-source Airtable alternative.
@@ -247,6 +297,8 @@
 
 - [Playwright](https://playwright.dev) - End-to-end testing for modern web apps.
 - [Cypress](https://www.cypress.io) - Fast, easy, and reliable end-to-end testing.
+- [BrowserStack](https://www.browserstack.com) - Cloud-based platform for cross-browser and device testing.
+- [Chromatic](https://www.chromatic.com) - Visual testing and review platform for Storybook components.
 - [Vitest](https://vitest.dev) - Blazing fast unit test framework powered by Vite.
 - [Jest](https://jestjs.io) - Delightful JavaScript testing framework.
 - [Mocha](https://mochajs.org) - Feature-rich JavaScript test framework.
@@ -258,6 +310,8 @@
 - [Datadog](https://www.datadoghq.com) - Monitoring and analytics platform.
 - [Grafana](https://grafana.com) - Open-source analytics and monitoring solution.
 - [Prometheus](https://prometheus.io) - Systems monitoring and alerting toolkit.
+- [OpenTelemetry](https://opentelemetry.io) - Vendor-neutral observability framework for traces, metrics, and logs.
+- [Jaeger](https://www.jaegertracing.io) - Open-source distributed tracing platform.
 
 ## Editors & IDEs
 
