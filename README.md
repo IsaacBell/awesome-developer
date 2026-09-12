@@ -380,6 +380,7 @@
 - [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck) - Interview guide covering iOS-specific questions and coding patterns.
 - [Tabletop Game Design for Video Game Designers](https://www.routledge.com/Tabletop-Game-Design-for-Video-Game-Designers/Ham/p/book/9780415627016) - Translating tabletop design principles into better video game design.
 - [Building Blocks of Tabletop Game Design](https://www.routledge.com/Building-Blocks-of-Tabletop-Game-Design-An-Encyclopedia-of-Mechanisms/Engelstein-Shalev/p/book/9781032015811) - An encyclopedia of game mechanisms for designers.
+- [The Concise TypeScript Book](https://github.com/gibbok/typescript-book) - Free and open-source TypeScript book covering fundamentals, practical patterns, and advanced concepts.
 
 ## Learning Resources
 
