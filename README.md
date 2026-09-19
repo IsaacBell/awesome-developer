@@ -225,6 +225,8 @@
 - [Tabnine](https://www.tabnine.com) - AI code completion tool.
 - [Codeium](https://codeium.com) - Free AI code completion and chat.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with codebase awareness.
+- [NextReset](https://nextreset.ai) - Independent Codex reset-history tracker with official incident sources and a browser-local personal timer.
+
 
 ## Game Development
 
