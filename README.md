@@ -299,6 +299,7 @@
 - [Cypress](https://www.cypress.io) - Fast, easy, and reliable end-to-end testing.
 - [BrowserStack](https://www.browserstack.com) - Cloud-based platform for cross-browser and device testing.
 - [Chromatic](https://www.chromatic.com) - Visual testing and review platform for Storybook components.
+- [agent-qa](https://vostride.com) - Natural-language web, Android and iOS testing with persistent memidex memory and evidence-based self-improvement.
 - [Vitest](https://vitest.dev) - Blazing fast unit test framework powered by Vite.
 - [Jest](https://jestjs.io) - Delightful JavaScript testing framework.
 - [Mocha](https://mochajs.org) - Feature-rich JavaScript test framework.
