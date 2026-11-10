@@ -220,6 +220,7 @@
 - [Continue](https://continue.dev) - Open-source AI code assistant extension.
 - [Cline (Roo)](https://github.com/cline/cline) - Open-source AI coding agent for VS Code.
 - [Sourcegraph Amp](https://sourcegraph.com/amp) - Enterprise AI coding agent for large codebases.
+- [Imagera Code](https://imagera.ai/code) - Terminal coding agent on 276 coding models from one plan, with one weekly limit instead of short lockouts.
 - [Codex CLI](https://github.com/openai/codex) - OpenAI's terminal-based code assistant.
 - [Gemini Code Assist](https://codeassist.google) - Google's AI coding assistant.
 - [Tabnine](https://www.tabnine.com) - AI code completion tool.
